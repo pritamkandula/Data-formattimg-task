@@ -1,5 +1,4 @@
 from overview import user_data
-import pandas as pd
 
 trans = user_data('SampleData.json')
 for i in range(len(trans.index)):
